@@ -39,11 +39,11 @@ public class Assignment_2 {
         // try to create a file, if not read the existing file
         try {
             File create = new File("students.txt");
-            create.createNewFile();
+            
             if (!create.createNewFile()) {
+                System.out.println("Reading file...");
                 Scanner inFile = new Scanner(new File("students.txt"));
                 // read the whole line, then split it up by the commas.
-
                 while (inFile.hasNextLine()) {
                     String parse = inFile.nextLine();
                     // split each line of the file into
@@ -56,7 +56,7 @@ public class Assignment_2 {
                     students.add(new Student(info[0], Integer.parseInt(info[1]), marks));
                 }
             }
-            return students;
+            else System.out.println("Creating file...");
         }
         // catch error reading file
         catch (Exception e) {
