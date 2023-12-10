@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Assignment 4</string>
+    <string name = "question1">Which video game console has sold the most units?</string>
+    <string name= "answer1d">Sony Playstation 2</string>
+    <string name= "answer1b">Nintendo Entertainment System (NES/ Super Famicom)</string>
+    <string name= "answer1c">Nintendo Switch</string>
+    <string name= "answer1a">Xbox 360</string>
+    <string name = "question2">This game won the Game of the Year award at the 2023 Game Awards.</string>
+    <string name= "answer2a">Spider-Man 2</string>
+    <string name= "answer2b">Resident Evil 4 Remake</string>
+    <string name= "answer2c">Baldur\'s Gate 3</string>
+    <string name= "answer2d">The Legend of Zelda: Tears of the Kingdom</string>
+    <string name = "question3">Which video game franchise has sold the most lifetime units?</string>
+    <string name= "answer3a">Mario</string>
+    <string name= "answer3b">Call of Duty</string>
+    <string name= "answer3c">Resident Evil</string>
+    <string name= "answer3d">Street Fighter</string>
+    <string name ="question4">Which year did the following video games release: Devil May Cry, Halo, Metal Gear Solid 2, Super Smash Bros. Melee</string>
+    <string name= "answer4a">2003</string>
+    <string name= "answer4b">1999</string>
+    <string name= "answer4c">2001</string>
+    <string name= "answer4d">2004</string>
+    <string name = "question5">Which video game franchise has had the most number of best selling releases annually?</string>
+    <string name= "answer5a">Super Mario Bros.</string>
+    <string name= "answer5b">The Legend of Zelda</string>
+    <string name= "answer5c">Call of Duty</string>
+    <string name= "answer5d">Bioshock</string>
+    <string name = "question6">Which is the longest running video game franchise?</string>
+    <string name= "answer6a">Pac-Man</string>
+    <string name= "answer6b">The Oregon Trail</string>
+    <string name= "answer6c">Super Mario Bros.</string>
+    <string name= "answer6d">Pong</string>
+
+    <string name = "correct">Correct!</string>
+    <string name = "incorrect">Incorrect!</string>
+</resources>
