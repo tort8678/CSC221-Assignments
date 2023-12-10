@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/coordinator"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="24dp"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:text="@string/question1"
+        />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text = "@string/answer1a"
+                android:id="@+id/answer1"
+                android:visibility="visible"/>
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text = "@string/answer1b"
+                android:id="@+id/answer2"
+                android:visibility="visible"/>
+            <Button
+                android:id="@+id/answer3"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="@string/answer1c"
+                android:layout_gravity="left"
+                android:visibility="visible"
+                />
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text = "@string/answer1d"
+                android:visibility="visible"
+                android:layout_gravity="left"
+                android:id="@+id/answer4" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+    </LinearLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
