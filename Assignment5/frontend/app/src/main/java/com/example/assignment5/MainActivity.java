@@ -73,8 +73,7 @@ public class MainActivity extends AppCompatActivity {
         }
         else Snackbar.make(view,R.string.incorrect,Snackbar.LENGTH_SHORT).show();
         if(mCurrentIndex+1 != mQuestionBank.length) {
-            mCurrentIndex++;
-            int question = mQuestionBank[mCurrentIndex].getTextResId();
+             int question = mQuestionBank[mCurrentIndex].getTextResId();
             mQuestionTextView.setText(question);
             mAnswer1.setText(mQuestionBank[mCurrentIndex].getChoice(0));
             mAnswer2.setText(mQuestionBank[mCurrentIndex].getChoice(1));
